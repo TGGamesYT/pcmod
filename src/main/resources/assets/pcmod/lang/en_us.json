@@ -1,0 +1,10 @@
+{
+  "block.pcmod.pc": "PC",
+  "item.pcmod.pc": "PC",
+  "item.pcmod.ram": "RAM",
+  "item.pcmod.cpu": "CPU",
+  "item.pcmod.gpu": "GPU",
+  "item.pcmod.coolers": "Coolers",
+  "item.pcmod.motherboard": "Motherboard",
+  "creativeTab.pcmod": "PCs"
+}
