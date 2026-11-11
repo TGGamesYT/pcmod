@@ -1,0 +1,82 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [8, 8],
+	"textures": {
+		"7": "pcmod:block/ssd",
+		"particle": "pcmod:block/pcbase"
+	},
+	"elements": [
+		{
+			"name": "ssd",
+			"from": [7.875, 7.625, 6.5],
+			"to": [8.125, 8.375, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.125, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 4.5, 5.5], "texture": "#7"},
+				"east": {"uv": [0, 0, 6, 1.5], "texture": "#7"},
+				"south": {"uv": [6, 0, 6.5, 1.5], "texture": "#7"},
+				"west": {"uv": [0, 2, 6, 3.5], "texture": "#7"},
+				"up": {"uv": [0, 4, 0.5, 10], "texture": "#7"},
+				"down": {"uv": [2, 4, 2.5, 10], "texture": "#7"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 0, 180],
+			"translation": [1.5, 1.5, 0],
+			"scale": [4, 4, 4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [1.5, 1.5, 0],
+			"scale": [4, 4, 4]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -4, 0],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [0, -90, 0],
+			"scale": [4, 4, 4]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4.75, -7],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [4, 4, 4]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, 0],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "parts",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "motherboard_depends",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [0]
+				}
+			]
+		}
+	]
+}

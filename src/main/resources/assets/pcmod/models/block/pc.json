@@ -1,6 +1,7 @@
 {
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
+	"texture_size": [8, 8],
 	"textures": {
 		"0": "pcmod:block/pcbase",
 		"1": "pcmod:block/motherboard",
@@ -9,6 +10,7 @@
 		"4": "pcmod:block/cpu",
 		"5": "pcmod:block/ram",
 		"6": "pcmod:block/gpu",
+		"7": "pcmod:block/ssd",
 		"particle": "pcmod:block/pcbase"
 	},
 	"elements": [
@@ -347,6 +349,20 @@
 				"up": {"uv": [0, 8, 1.5, 8.26], "texture": "#5"},
 				"down": {"uv": [8, 0, 9.5, 0.26], "texture": "#5"}
 			}
+		},
+		{
+			"name": "ssd",
+			"from": [4.55, 11.5, 9.95],
+			"to": [4.8, 12.25, 12.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.55, 2.5, 3.95]},
+			"faces": {
+				"north": {"uv": [4, 4, 4.5, 5.5], "texture": "#7"},
+				"east": {"uv": [0, 0, 6, 1.5], "texture": "#7"},
+				"south": {"uv": [6, 0, 6.5, 1.5], "texture": "#7"},
+				"west": {"uv": [0, 2, 6, 3.5], "texture": "#7"},
+				"up": {"uv": [0, 4, 0.5, 10], "texture": "#7"},
+				"down": {"uv": [2, 4, 2.5, 10], "texture": "#7"}
+			}
 		}
 	],
 	"display": {
@@ -412,7 +428,7 @@
 					"origin": [8, 8, 8],
 					"scope": 0,
 					"color": 0,
-					"children": [19, 20, 21, 22, 23]
+					"children": [19, 20, 21, 22, 23, 24]
 				}
 			]
 		}

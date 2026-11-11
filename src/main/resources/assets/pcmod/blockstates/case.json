@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pcmod:block/case"
+    },
+    "facing=east": {
+      "model": "pcmod:block/case",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pcmod:block/case",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pcmod:block/case",
+      "y": 270
+    }
+  }
+}

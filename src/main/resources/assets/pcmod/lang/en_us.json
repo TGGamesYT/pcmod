@@ -6,5 +6,7 @@
   "item.pcmod.gpu": "GPU",
   "item.pcmod.coolers": "Coolers",
   "item.pcmod.motherboard": "Motherboard",
+  "item.pcmod.case": "PC case",
+  "item.pcmod.ssd": "SSD",
   "creativeTab.pcmod": "PCs"
 }

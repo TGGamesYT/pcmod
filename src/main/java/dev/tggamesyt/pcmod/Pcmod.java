@@ -16,11 +16,10 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 public class Pcmod implements ModInitializer {
 
     static public String MOD_ID = "pcmod";
-    static ResourceKey<Block> BLOCK_KEY = ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MOD_ID, "pc"));
-    static ResourceKey<Item> ITEM_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "pc"));
-    static Block PC_BLOCK = Registry.register(BuiltInRegistries.BLOCK, BLOCK_KEY, new PCblock(BlockBehaviour.Properties.of().setId(BLOCK_KEY)));
-    static BlockItem BLOCK_ITEM = new BlockItem(PC_BLOCK, new Item.Properties().setId(ITEM_KEY));
-    static Item PC_ITEM = Registry.register(BuiltInRegistries.ITEM, ITEM_KEY, BLOCK_ITEM);
+    static ResourceKey<Block> PC_BLOCK_KEY = ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MOD_ID, "pc"));
+    static ResourceKey<Item> PC_ITEM_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "pc"));
+    static Block PC_BLOCK = Registry.register(BuiltInRegistries.BLOCK, PC_BLOCK_KEY, new PCblock(BlockBehaviour.Properties.of().setId(PC_BLOCK_KEY)));
+    static Item PC_ITEM = Registry.register(BuiltInRegistries.ITEM, PC_ITEM_KEY, new BlockItem(PC_BLOCK, new Item.Properties().setId(PC_ITEM_KEY)));
 
     static ResourceKey<Item> CPU_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "cpu"));
     static Item CPU = Registry.register(BuiltInRegistries.ITEM, CPU_KEY, new Item(new Item.Properties().setId(CPU_KEY)));
@@ -32,6 +31,12 @@ public class Pcmod implements ModInitializer {
     static Item COOLERS = Registry.register(BuiltInRegistries.ITEM, COOLERS_KEY, new Item(new Item.Properties().setId(COOLERS_KEY)));
     static ResourceKey<Item> MOTHERBOARD_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "motherboard"));
     static Item MOTHERBOARD = Registry.register(BuiltInRegistries.ITEM, MOTHERBOARD_KEY, new Item(new Item.Properties().setId(MOTHERBOARD_KEY)));
+    static ResourceKey<Item> SSD_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "ssd"));
+    static Item SSD = Registry.register(BuiltInRegistries.ITEM, SSD_KEY, new Item(new Item.Properties().setId(SSD_KEY)));
+    static ResourceKey<Block> CASE_BLOCK_KEY = ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MOD_ID, "case"));
+    static ResourceKey<Item> CASE_ITEM_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "case"));
+    static Block CASE_BLOCK = Registry.register(BuiltInRegistries.BLOCK, CASE_BLOCK_KEY, new PCblock(BlockBehaviour.Properties.of().setId(CASE_BLOCK_KEY)));
+    static Item CASE_ITEM = Registry.register(BuiltInRegistries.ITEM, CASE_ITEM_KEY, new BlockItem(CASE_BLOCK, new Item.Properties().setId(CASE_ITEM_KEY)));
 
     public static final ResourceKey<CreativeModeTab> CUSTOM_CREATIVE_TAB_KEY = ResourceKey.create(
             BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(MOD_ID, "pc_tab")
@@ -41,11 +46,13 @@ public class Pcmod implements ModInitializer {
             .title(Component.translatable("creativeTab.pcmod"))
             .displayItems((params, output) -> {
                 output.accept(PC_ITEM);
+                output.accept(CASE_ITEM);
                 output.accept(CPU);
                 output.accept(GPU);
                 output.accept(RAM);
                 output.accept(COOLERS);
                 output.accept(MOTHERBOARD);
+                output.accept(SSD);
             })
             .build();
     @Override
