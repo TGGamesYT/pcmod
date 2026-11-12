@@ -4,6 +4,9 @@
   "package": "dev.tggamesyt.pcmod.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
+    "PoolElementStructurePieceMixin",
+    "SinglePoolElementAccessor",
+    "VillagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

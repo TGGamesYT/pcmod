@@ -1,0 +1,86 @@
+{
+  "textures": {
+    "4": "pcmod:block/villager_ram",
+    "particle": "pcmod:block/psu"
+  },
+  "elements": [
+    {
+      "name": "ram1",
+      "from": [
+        8.625,
+        2,
+        12.1125
+      ],
+      "to": [
+        12.125,
+        2.75,
+        12.2375
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          3.625,
+          1,
+          5.1125
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            7,
+            1.5
+          ],
+          "texture": "#4"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            0.25,
+            9.5
+          ],
+          "texture": "#4"
+        },
+        "south": {
+          "uv": [
+            0,
+            2,
+            7,
+            3.5
+          ],
+          "texture": "#4"
+        },
+        "west": {
+          "uv": [
+            8,
+            0,
+            8.25,
+            1.5
+          ],
+          "texture": "#4"
+        },
+        "up": {
+          "uv": [
+            0,
+            4,
+            7,
+            4.25
+          ],
+          "texture": "#4"
+        },
+        "down": {
+          "uv": [
+            0,
+            6,
+            7,
+            6.25
+          ],
+          "texture": "#4"
+        }
+      }
+    }
+  ]
+}

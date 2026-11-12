@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block",
+    "count": 22
+  },
+  "gives": {
+    "id": "pcmod:motherboard"
+  },
+  "max_uses": 4,
+  "xp": 30,
+  "reputation_discount": 0.05
+}

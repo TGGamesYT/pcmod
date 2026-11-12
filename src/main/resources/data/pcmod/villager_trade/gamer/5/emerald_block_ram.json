@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block",
+    "count": 44
+  },
+  "gives": {
+    "id": "pcmod:ram"
+  },
+  "max_uses": 3,
+  "xp": 30,
+  "reputation_discount": 0.05
+}

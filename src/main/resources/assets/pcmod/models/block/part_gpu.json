@@ -1,0 +1,86 @@
+{
+  "textures": {
+    "6": "pcmod:block/gpu",
+    "particle": "pcmod:block/pcbase"
+  },
+  "elements": [
+    {
+      "name": "gpu",
+      "from": [
+        4.55,
+        10,
+        6.95
+      ],
+      "to": [
+        9.05,
+        11,
+        14.95
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5.55,
+          0,
+          0.95
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            9,
+            4.5,
+            10
+          ],
+          "texture": "#6"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            8,
+            9
+          ],
+          "texture": "#6"
+        },
+        "south": {
+          "uv": [
+            5,
+            9,
+            9.5,
+            10
+          ],
+          "texture": "#6"
+        },
+        "west": {
+          "uv": [
+            8,
+            8,
+            16,
+            9
+          ],
+          "texture": "#6"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            4.5,
+            8
+          ],
+          "texture": "#6"
+        },
+        "down": {
+          "uv": [
+            5,
+            0,
+            9.5,
+            8
+          ],
+          "texture": "#6"
+        }
+      }
+    }
+  ]
+}

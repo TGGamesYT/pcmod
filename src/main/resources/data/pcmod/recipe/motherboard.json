@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:green_dye",
+    "Q": "minecraft:quartz",
+    "C": "minecraft:copper_ingot",
+    "G": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "DQD",
+    "CGC",
+    "DQD"
+  ],
+  "result": {
+    "id": "pcmod:motherboard"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone",
+    "B": "minecraft:redstone_block",
+    "C": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "III",
+    "RBR",
+    "ICI"
+  ],
+  "result": {
+    "id": "pcmod:psu"
+  }
+}

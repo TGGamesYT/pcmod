@@ -1,6 +1,15 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "pcmod:item/cpu"
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "pcmod:thermal_paste",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "pcmod:item/cpu_pasted"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "pcmod:item/cpu"
+    }
   }
 }

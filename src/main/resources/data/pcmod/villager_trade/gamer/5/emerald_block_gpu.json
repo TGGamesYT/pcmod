@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block",
+    "count": 64
+  },
+  "gives": {
+    "id": "pcmod:gpu"
+  },
+  "max_uses": 3,
+  "xp": 30,
+  "reputation_discount": 0.05,
+  "additional_wants": {
+    "id": "minecraft:emerald_block",
+    "count": 14
+  }
+}

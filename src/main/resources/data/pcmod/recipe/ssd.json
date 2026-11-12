@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "minecraft:gold_nugget",
+    "Q": "minecraft:quartz",
+    "A": "minecraft:amethyst_shard",
+    "D": "minecraft:green_dye",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "NNN",
+    "QAQ",
+    "DRD"
+  ],
+  "result": {
+    "id": "pcmod:ssd"
+  }
+}

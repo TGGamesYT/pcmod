@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "pcmod:item/case"
+    "model": "pcmod:item/thermal_paste"
   }
 }

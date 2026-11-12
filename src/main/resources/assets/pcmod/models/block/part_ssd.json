@@ -1,0 +1,86 @@
+{
+  "textures": {
+    "7": "pcmod:block/ssd",
+    "particle": "pcmod:block/pcbase"
+  },
+  "elements": [
+    {
+      "name": "ssd",
+      "from": [
+        4.55,
+        11.5,
+        9.95
+      ],
+      "to": [
+        4.8,
+        12.25,
+        12.95
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5.55,
+          2.5,
+          3.95
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            4,
+            4.5,
+            5.5
+          ],
+          "texture": "#7"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            1.5
+          ],
+          "texture": "#7"
+        },
+        "south": {
+          "uv": [
+            6,
+            0,
+            6.5,
+            1.5
+          ],
+          "texture": "#7"
+        },
+        "west": {
+          "uv": [
+            0,
+            2,
+            6,
+            3.5
+          ],
+          "texture": "#7"
+        },
+        "up": {
+          "uv": [
+            0,
+            4,
+            0.5,
+            10
+          ],
+          "texture": "#7"
+        },
+        "down": {
+          "uv": [
+            2,
+            4,
+            2.5,
+            10
+          ],
+          "texture": "#7"
+        }
+      }
+    }
+  ]
+}

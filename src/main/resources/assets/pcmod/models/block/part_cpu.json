@@ -1,0 +1,86 @@
+{
+  "textures": {
+    "4": "pcmod:block/cpu",
+    "particle": "pcmod:block/pcbase"
+  },
+  "elements": [
+    {
+      "name": "cpu",
+      "from": [
+        4.55,
+        13,
+        9.95
+      ],
+      "to": [
+        5.05,
+        14,
+        10.95
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5.55,
+          3,
+          0.95
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            0,
+            6,
+            4
+          ],
+          "texture": "#4"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#4"
+        },
+        "south": {
+          "uv": [
+            4,
+            4,
+            6,
+            8
+          ],
+          "texture": "#4"
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            4,
+            8
+          ],
+          "texture": "#4"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            2,
+            12
+          ],
+          "texture": "#4"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            10,
+            4
+          ],
+          "texture": "#4"
+        }
+      }
+    }
+  ]
+}

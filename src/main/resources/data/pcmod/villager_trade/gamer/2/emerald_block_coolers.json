@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block",
+    "count": 7
+  },
+  "gives": {
+    "id": "pcmod:coolers"
+  },
+  "max_uses": 8,
+  "xp": 10,
+  "reputation_discount": 0.05
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:green_dye",
+    "R": "minecraft:redstone",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "DRD",
+    "DID",
+    "DRD"
+  ],
+  "result": {
+    "id": "pcmod:old_motherboard"
+  }
+}

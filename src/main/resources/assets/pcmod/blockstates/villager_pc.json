@@ -1,0 +1,394 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_base"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_closed"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "motherboard": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_motherboard"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "psu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_psu"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "cpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_cpu"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "coolers": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_coolers"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "hdd": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_hdd"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "ram1": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_ram1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "ram2": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_ram2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "cpu": "true",
+        "paste": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_thermal_paste"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_base",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_closed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "motherboard": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_motherboard",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "psu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_psu",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "cpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_cpu",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "coolers": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_coolers",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "hdd": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_hdd",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "ram1": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_ram1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "ram2": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_ram2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "cpu": "true",
+        "paste": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_thermal_paste",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_base",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_closed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "motherboard": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_motherboard",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "psu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_psu",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "cpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_cpu",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "coolers": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_coolers",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "hdd": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_hdd",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "ram1": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_ram1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "ram2": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_ram2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "cpu": "true",
+        "paste": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_thermal_paste",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_base",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_closed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "motherboard": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_motherboard",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "psu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_psu",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "cpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_cpu",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "coolers": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_coolers",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "hdd": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_hdd",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "ram1": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_ram1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "ram2": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_ram2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "cpu": "true",
+        "paste": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/villager_pc_part_thermal_paste",
+        "y": 270
+      }
+    }
+  ]
+}

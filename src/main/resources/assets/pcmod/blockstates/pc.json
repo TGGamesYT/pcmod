@@ -1,19 +1,433 @@
 {
-  "variants": {
-    "facing=north": {
-      "model": "pcmod:block/pc"
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "pcmod:block/case_base"
+      }
     },
-    "facing=east": {
-      "model": "pcmod:block/pc",
-      "y": 90
+    {
+      "when": {
+        "facing": "north",
+        "open": "false"
+      },
+      "apply": {
+        "model": "pcmod:block/case_closed"
+      }
     },
-    "facing=south": {
-      "model": "pcmod:block/pc",
-      "y": 180
+    {
+      "when": {
+        "facing": "north",
+        "motherboard": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_motherboard"
+      }
     },
-    "facing=west": {
-      "model": "pcmod:block/pc",
-      "y": 270
+    {
+      "when": {
+        "facing": "north",
+        "psu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_psu"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "coolers": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_coolers"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "gpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_gpu"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "cpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_cpu"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "ram1": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ram1"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "ram2": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ram2"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "ssd": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ssd"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "cpu": "true",
+        "paste": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_thermal_paste"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "pcmod:block/case_base",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false"
+      },
+      "apply": {
+        "model": "pcmod:block/case_closed",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "motherboard": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_motherboard",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "psu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_psu",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "coolers": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_coolers",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "gpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_gpu",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "cpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_cpu",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "ram1": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ram1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "ram2": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ram2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "ssd": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ssd",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "cpu": "true",
+        "paste": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_thermal_paste",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "pcmod:block/case_base",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false"
+      },
+      "apply": {
+        "model": "pcmod:block/case_closed",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "motherboard": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_motherboard",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "psu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_psu",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "coolers": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_coolers",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "gpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_gpu",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "cpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_cpu",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "ram1": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ram1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "ram2": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ram2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "ssd": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ssd",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "cpu": "true",
+        "paste": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_thermal_paste",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "pcmod:block/case_base",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false"
+      },
+      "apply": {
+        "model": "pcmod:block/case_closed",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "motherboard": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_motherboard",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "psu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_psu",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "coolers": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_coolers",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "gpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_gpu",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "cpu": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_cpu",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "ram1": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ram1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "ram2": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ram2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "ssd": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_ssd",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "cpu": "true",
+        "paste": "true"
+      },
+      "apply": {
+        "model": "pcmod:block/part_thermal_paste",
+        "y": 270
+      }
     }
-  }
+  ]
 }

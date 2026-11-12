@@ -1,0 +1,67 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"4": "pcmod:block/villager_ram",
+		"particle": "pcmod:block/psu"
+	},
+	"elements": [
+		{
+			"name": "ram1",
+			"from": [6.5, 8, 8.0125],
+			"to": [10, 8.75, 8.1375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 7, 1.0125]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 1.5], "texture": "#4"},
+				"east": {"uv": [0, 8, 0.25, 9.5], "texture": "#4"},
+				"south": {"uv": [0, 2, 7, 3.5], "texture": "#4"},
+				"west": {"uv": [8, 0, 8.25, 1.5], "texture": "#4"},
+				"up": {"uv": [0, 4, 7, 4.25], "texture": "#4"},
+				"down": {"uv": [0, 6, 7, 6.25], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, -90],
+			"translation": [0, 0, -0.25],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 90],
+			"translation": [0, 0, -0.25],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [180, 0, 180],
+			"translation": [1.5, 2.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 0, -180],
+			"translation": [1.5, 2.5, 0],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"translation": [0, -3.75, 0],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [0, -180, 45],
+			"scale": [4, 4, 4]
+		},
+		"head": {
+			"rotation": [45, 0, 0],
+			"translation": [0, 6, -7],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [0, 0, -90],
+			"scale": [4, 4, 4]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"scale": [4, 4, 4]
+		}
+	}
+}

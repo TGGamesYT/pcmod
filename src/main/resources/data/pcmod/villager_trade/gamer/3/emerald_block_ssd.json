@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block",
+    "count": 17
+  },
+  "gives": {
+    "id": "pcmod:ssd"
+  },
+  "max_uses": 6,
+  "xp": 20,
+  "reputation_discount": 0.05
+}

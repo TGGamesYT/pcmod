@@ -1,0 +1,68 @@
+{
+  "textures": {
+    "paste": "pcmod:block/thermal_paste",
+    "particle": "pcmod:block/thermal_paste"
+  },
+  "elements": [
+    {
+      "name": "thermal_paste",
+      "from": [
+        3.8499999999999996,
+        2.5,
+        3.8499999999999996
+      ],
+      "to": [
+        4.65,
+        2.55,
+        4.65
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#paste"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#paste"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#paste"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#paste"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": "#paste"
+        }
+      }
+    }
+  ]
+}
